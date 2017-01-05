@@ -1,0 +1,95 @@
+<style>
+    .navbar-fixed-left {
+        width: 140px;
+        position: fixed;
+        border-radius: 0;
+        height: 100%;
+    }
+
+    .navbar-fixed-left .navbar-nav > li {
+        float: none;  /* Cancel default li float: left */
+        width: 139px;
+    }
+
+    .navbar-fixed-left + .container {
+        padding-left: 160px;
+    }
+    a:active {
+        background-color: yellow;
+    }
+
+
+</style>
+
+<div class="navbar navbar-inverse navbar-fixed-left">
+    <a class="navbar-brand" ui-sref="aggregation">Aggregation</a>
+    <a class="navbar-brand" ui-sref="anamoly">Anomaly</a>
+
+</div>
+<div class="container" style="padding-left: 0px">
+
+    <div ><!--ng-controller="homecontroller"-->
+        <form ng-init="getAggregationData()">
+
+            <h2>Aggregation data</h2>
+            <ul class="nav nav-tabs">
+                <li><a data-toggle="tab" data-target="#menu1">Secondly</a></li>
+                <li><a data-toggle="tab" data-target="#menu2">Minutely</a></li>
+                <li><a data-toggle="tab" data-target="#menu3">Hourly</a></li>
+            </ul>
+
+            <div class="tab-content">
+
+                <div id="menu1" class="tab-pane fade">
+                    <div id="secondlyTempChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="secondlyAqiChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="secondlyHumidityChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="secondlyWindDirectionDiv">
+
+                    </div>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <div id="minutelyTempChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="minutelyAqiChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="minutelyHumidityChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="minutelyWindDirectionDiv" >
+
+                    </div>
+
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                    <div id="hourlyTempChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="hourlyAqiChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="hourlyHumidityChartDiv" style="width: 75%">
+
+                    </div>
+                    <div id="hourlyWindDirectionDiv">
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+</div>

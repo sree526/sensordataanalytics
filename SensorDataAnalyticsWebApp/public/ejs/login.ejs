@@ -1,0 +1,29 @@
+<body style="background-color:#CACECD">
+  <div class="container">
+  <form ng-controller="signup" ng-submit="login()">
+    <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+    <div class="form-group">
+    <div class="container-fluid">
+    <h2>Weather Analytics</h2>
+    </div>
+      <label for="email">Username:</label>
+      <input type="text" class="form-control" id="username" ng-model="username" placeholder="Enter username">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" ng-model="password" placeholder="Enter password">
+    </div>
+    <div class="form-group">
+    	<input type="submit" class="form-control" style="background-color:#68E9C7" value="Login">
+</div>
+  {{todos}}
+  </form>
+  </div>
+  <div class="col-md-4"></div>
+  </div>
+  <a ui-sref="SignUp">SignUp</a>
+</div>
+  
+  </body>

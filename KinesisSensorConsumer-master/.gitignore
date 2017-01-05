@@ -1,0 +1,7 @@
+/coverage
+/doc
+/lib/jars
+/node_modules
+*.log
+/samples/click_stream_sample
+.idea/

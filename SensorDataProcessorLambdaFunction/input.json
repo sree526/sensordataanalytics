@@ -1,0 +1,16 @@
+{
+	"latitude":37.3382082,
+	"longitude":-121.8863286,
+	"city":"San Jose",
+	"timestamp":"2009-09-28 19:03:12",
+	"temperature":48.8,
+	"CO2":15,
+    "CO":5,
+    "NO":10,
+    "O3":25,
+    "humidity":91,
+    "precipitation":0,
+    "windDirection":270.25,
+    "windSpeed":1.6	
+}
+

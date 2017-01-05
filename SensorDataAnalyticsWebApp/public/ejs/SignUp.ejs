@@ -1,0 +1,44 @@
+<body style="background-color:#CACECD ">
+<div class="container">
+  <form ng-controller="signup" ng-submit="signup()">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <div class="container-fluid">
+            <h2>Weather Analytics</h2>
+            <h4>Note that your firstname will be your username</h4>
+          </div>
+          <label for="email">Firstname:</label>
+          <input type="text" class="form-control" id="username" ng-model="firstname" placeholder="Enter firstname">
+        </div>
+        <div class="form-group">
+          <label for="pwd">lastname:</label>
+          <input type="text" class="form-control" id="pwd" ng-model="lastname" placeholder="Enter lastname">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" ng-model="password" placeholder="Enter password">
+        </div>
+        <div class="form-group">
+          <label for="location">Select Location:</label>
+          <select class="form-control" id="location" ng-model="location">
+            <option>Arizona</option>
+            <option>SanFransicso</option>
+            <option>Newyork</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="submit" class="form-control" style="background-color:#68E9C7 " value="SignUp">
+        </div>
+        {{todos}}
+      </div>
+    </div>
+  </form>
+</div>
+<div class="col-md-4"></div>
+
+<a ui-sref="Login">Login</a>
+
+
+</body>

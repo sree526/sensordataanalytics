@@ -1,0 +1,15 @@
+{
+	"latitude":32.901836,
+	"longitude":-111.742252,
+	"city":"Arizona City",
+	"timestamp":"2009-09-28 19:03:29",
+	"temperature":38.8,
+	"CO2":25,
+	"CO":10,
+	"NO":15,
+	"O3":25,
+	"humidity":81,
+	"precipitation":1,
+	"windDirection":220.25,
+	"windSpeed":2.6
+}
